@@ -7,8 +7,17 @@ return {
 			require("github-theme").setup({
 				-- Put the settings here
 			})
-
-			vim.cmd("colorscheme github_dark_default")
+		end,
+	},
+	{
+		"catppuccin/nvim",
+		name = "catppuccin",
+		lazy = false,
+		priority = 1000,
+		config = function()
+			require("catppuccin").setup({
+				-- Put the settings here
+			})
 		end,
 	},
 }

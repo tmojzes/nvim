@@ -16,6 +16,7 @@ return {
 				"golangci-lint",
 				"gofumpt",
 				"goimports",
+				"zls",
 			})
 		end,
 	},
